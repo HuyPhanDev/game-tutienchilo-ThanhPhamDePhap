@@ -1,0 +1,47 @@
+<Magics><List>
+
+
+	<Magic Name="Magic_B" Type="Class">
+		<DisplayName>法相天地</DisplayName>
+		<Desc>身形巨幅增加，属性增加。</Desc>
+		<Icon>res\Sprs\ui\icon_zaizaoxingshen01</Icon>
+		<Param1>3</Param1><!--施法时间-->
+		<sParam1>CX_TX4</sParam1><!--modifier-->
+		<SelectMode>None</SelectMode>
+		<ClassName>Magic_ModifierAddNormal</ClassName>
+		<TargetDesc></TargetDesc>
+		<Ani>shentong3</Ani>
+		<ShowInPAttacker>1</ShowInPAttacker>
+	</Magic>	
+
+
+
+	<Magic Name="God_R" Type="Class">
+		<DisplayName>天路引归·不凡圣功</DisplayName>
+		<Desc>将一名弥留，死亡角色复活。。</Desc>
+		<Icon>res\Sprs\ui\icon_tongxiu01</Icon>
+		<TargetDesc>请选择已死亡或弥留的角色</TargetDesc>
+		<ItemCost>
+				<Item name = "Item_LingStone" count = "1"/>
+		</ItemCost>		
+		<Param1>30</Param1><!--消耗时间-->
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Npc</SelectTarget>
+		<Ani>chuangong1</Ani>
+		<ClassName>Magic_GodResurrectionA</ClassName>
+		<ShowInPAttacker>1</ShowInPAttacker>
+	</Magic>	
+
+	<Magic Name="Xunbo" Type="Class">
+		<DisplayName>旬波之识</DisplayName>
+		<Desc>心念沟通魔佛旬波，以自身寿命交换元神分神，次数越多，交换的寿命也越多。</Desc>
+		<Icon>res\Sprs\ui\icon_zhoutian01</Icon>
+		<Param1>1</Param1><!--施法时间-->
+		<LuaCostAge>me:GetDivideCostAge()</LuaCostAge>
+		<SelectMode>None</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<ClassName>Magic_FenShenZhiShu</ClassName>
+	</Magic>
+
+
+</List></Magics>

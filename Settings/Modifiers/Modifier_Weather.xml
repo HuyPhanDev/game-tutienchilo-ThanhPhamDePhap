@@ -1,0 +1,32 @@
+<ModifierDefs><List>
+	
+	
+	<Modifier Name="Weather_LingUpWave" Type="Normal">
+		<DisplayName>灵气爆发</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Moods>
+			<li>Weather_LingUpWave</li>
+		</Moods>
+	</Modifier>
+
+	
+	<Modifier Name="Modifier_Weather_XF" Type="Normal">
+		<DisplayName>佛</DisplayName>
+		<Desc>在佛国中，地表灵气提升，御器威力、法术威力、灵气恢复大幅提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="25"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="20"/>
+			<li Name="LingAbsorbSpeed" AddP="100"/>
+			<li Name="RecoveryPower" AddP="3"/>
+		</Properties>
+	</Modifier>
+	
+
+</List></ModifierDefs>

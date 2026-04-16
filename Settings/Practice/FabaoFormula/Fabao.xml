@@ -1,0 +1,21 @@
+<FabaoFormulas><List>
+	<!-- 魔骨舍利 -->
+	<Fabao Name="MiBaoFormula_Sheli">
+		<Normal>0</Normal>
+		<ItemName>Item_MiBao_Sheli</ItemName>
+		<Level>0</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+
+	<!-- 净莲之华 -->
+	<Fabao Name="MiBaoFormula_jinglian">
+		<Normal>0</Normal>
+		<ItemName>Item_MiBao_jinglian</ItemName>
+		<Level>0</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+
+
+</List></FabaoFormulas>

@@ -1,0 +1,123 @@
+<FightSkills><List>
+	<Skill Name="TDamageSkill"><!--伤害技能基础模板 --> 
+		<DisplayName>伤害技能</DisplayName>
+		<IsTemplate>1</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>20</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>100</Value>
+		<TargetCamp>Enemy</TargetCamp>
+	</Skill>
+	
+	<Skill Name="DamageSkill_Xianfo"><!--伤害技能基础模板 --> 
+		<DisplayName>文殊法剑</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>5000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>2500</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>LowLing</SelectType>
+		<HitEffect>42</HitEffect>
+	</Skill>
+
+
+
+
+
+	<Skill Name="TDamageSkill_jianqi">
+		<DisplayName>先天魔气</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>5</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>300</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>26</MissileEffect>
+		<HitEffect>61</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>	
+	<Skill Name="DamageSkill_yinxu" Parent="TDamageSkill_jianqi">
+		<DisplayName>阴虚劲</DisplayName>		
+		<SelectCount>3</SelectCount>		
+	</Skill>
+
+	<Skill Name="DamageSkill_LSH">
+		<DisplayName>不动明王</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Huo</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>25</CD>
+		<LingCost>300</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>300</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Target</SelectType>
+		<HitEffect>39</HitEffect>
+	</Skill>
+
+	<Skill Name="Gong_Xianfo_HealthSkill"><!--恢复技能基础模板 --> 
+		<DisplayName>回照大千</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>3000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>48</HitEffect>
+	</Skill>
+	<Skill Name="SheildSkill_Xianfo"><!--护体真强基础模板 --> 
+		<DisplayName>金佛不灭体</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>15</CD>
+		<LingCost>200</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>1</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>60</HitEffect>
+	</Skill>
+</List></FightSkills>

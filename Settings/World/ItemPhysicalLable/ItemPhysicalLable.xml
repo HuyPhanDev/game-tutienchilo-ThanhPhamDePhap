@@ -1,0 +1,13 @@
+<PhysicalLables><List>
+
+	<Lable Name="Jiechi"> <!--圣物-攻-->
+		<Effects>
+			<li Kind="AttackPower" Addp="1.2"/>
+			<li Kind="FlySpeed" Addp="0.6"/>
+			<li Kind="RotSpeed" Addp="0.6"/>
+		</Effects>
+	</Lable>
+
+
+	
+</List></PhysicalLables> 

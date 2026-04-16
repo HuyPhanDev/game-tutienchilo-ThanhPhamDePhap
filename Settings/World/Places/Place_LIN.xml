@@ -1,0 +1,24 @@
+<Places><List>
+
+
+	<Place Name="Place_Xitian" Parent="Place_Level2Base">
+		<Location X="1100" Y="1030"/>
+		<Icon>res/Sprs/map/map_zhengpai01</Icon>
+		<DisplayName>圣谛如来藏</DisplayName>
+		<Desc>前古时期隐世宗门佛宗的所在地，但是在千年前举派离开乾坤界，整个门派如今只剩空壳，但是依稀可以看出当年的盛世辉煌。</Desc>
+		<UnLocked>1</UnLocked>
+		<Events>
+			<li Name="Find" Rate="1"/>
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_Dan_LingYuanZhong</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+		</Produce>
+	</Place>
+	
+
+	
+</List></Places>

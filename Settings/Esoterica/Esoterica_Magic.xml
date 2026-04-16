@@ -1,0 +1,17 @@
+﻿<Esotericas><List>
+	
+	<Esoterica Name="Magic_Mo">
+		<DisplayName>魔绝天棺</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_huashang01</Icon>
+		<Desc>魔神绝情，铸绝世魔器天棺送葬众生，可使敌人尸体形神俱灭，再也不入轮回，残忍至极。</Desc>
+		<StarLevel>1</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：魔绝天棺（野外可用）\n使敌人尸体形神俱灭，同时提升灵力上限5万、寿元200、天谴值50、微量法宝威力、微量法术威力。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>BeiMingJingTun</li>
+		</Magics>
+	</Esoterica>
+</List></Esotericas>

@@ -1,0 +1,35 @@
+﻿<Weathers><List>
+	<!--系统天气-->
+	<!-- 特殊天气type占位
+	结界类天气type 99
+	 100 凶凰炎热
+	 101 洞穴
+	 -->
+	 	
+		
+	<Weather Name="Weather_Magic_Foguo">
+		<DisplayName>佛国降临</DisplayName>
+		<StoryDesc>佛国中中</StoryDesc>
+		<Icon>res/Sprs/ui/icon_baoyu01</Icon>
+		<Kind>Type99</Kind>
+		<ClassName></ClassName>
+		<Modifier>Modifier_Weather_XF</Modifier>
+		<DurationMin>1</DurationMin>
+		<DurationMax>1</DurationMax>
+		<SunColor>26589EFF</SunColor>	
+		<Season>
+			<li>Spring</li>
+			<li>Summer</li>
+			<li>Autumn</li>
+			<li>Winter</li>
+		</Season>	
+		<IllustratedHandLabel>Dele</IllustratedHandLabel>
+		<MapEffect>
+			<li Name="LingAddtionAddV" Value="1000"/>
+		</MapEffect>
+	</Weather>
+	
+
+	
+	
+</List></Weathers>

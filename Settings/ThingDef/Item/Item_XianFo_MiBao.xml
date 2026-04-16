@@ -1,0 +1,123 @@
+<ThingDefs><List>
+		
+	
+	<ThingDef Type="Item" Name="Item_MiBao_Sheli" Parent="MiBaoBase">
+	<ThingName>魔骨舍利</ThingName>
+	<TexPath>res\Sprs\object_zhengfatianxia\object_PTzhu01</TexPath>	
+	<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_MBzhu01</FabaoTexPath>
+	<Desc>魔气纵横三千里。</Desc>
+	<ElementKind>None</ElementKind>
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>Sharp</li>
+			<li>GreatThing_Knock</li>
+			<li>Jiechi</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingStone" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "Other" des = "以精血喂养宝物9次" needcount = "9"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="0.5" fParam2="4" nParam1="0" Desc="造成伤害时，有50%的几率造成5倍伤害。"/>
+			     <Ability Kind="HitCountAddMirror" nParam1="3" nParam2="9" fParam1="5" Desc="每攻击3次，产生9道魔气，持续5秒。"/>
+			     <Ability Kind="HitSameFabaoAndEffect" nParam1="9" nParam2="1" Desc="每攻击同一个法宝9次，可使其失效，持续时间与其品阶有关。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	<Ling>
+		<Attenuation>1</Attenuation>
+		<Absorption>1</Absorption>
+		<Accommodate>1</Accommodate>
+	</Ling>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_MiBao_jinglian" Parent="MiBaoBase">
+	<ThingName>净莲之华</ThingName>
+	<TexPath>res\Sprs\object_zhengfatianxia\object_PTliantai01</TexPath>	
+	<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_MBliantai01</FabaoTexPath>
+	<Desc>佛宗攻击秘宝，唯有彻悟之人方能领悟其铸造方法。</Desc>
+	<ElementKind>None</ElementKind>
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>Sharp</li>
+			<li>GreatThing_Knock</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_ShuiEssence" count = "1"/>
+				<Item name = "Item_Mint" count = "1000"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "SoulCrystalLing" des = "对胚胎灵粹6次" needcount = "6" fParam = "1"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="HitCountAddSubColdDown" nParam1="2" fParam1="1" Desc="每2次攻击会减少1秒技能CD。"/>
+			     <Ability Kind="HitCountCostSkill" nParam1="12"  sParam1="DamageSkill_LSH" Desc="每12次攻击会对目标敌人发动一次不动明王印"/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	<Ling>
+		<Attenuation>1</Attenuation>
+		<Absorption>1</Absorption>
+		<Accommodate>1</Accommodate>
+	</Ling>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_MiBao_Yujingp" Parent="MiBaoBase">
+	<ThingName>菩提玉净瓶</ThingName>
+	<TexPath>res\Sprs\buildingnew\building_huaping02</TexPath>	
+	<FabaoTexPath>res\Sprs\buildingnew\building_huaping02</FabaoTexPath>
+	<Desc>佛宗秘宝。</Desc>
+	<ElementKind>None</ElementKind>
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>GreatThing_Rot</li>
+			<li>Soft2</li>
+			<li>Light2</li>
+			<li>Hard2</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_Mint" count = "10000"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "MapStay" des = "携带胚胎于圣谛如来藏驻扎9天" needday = "9" sParam = "Place_Xitian"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="HitCountAddSubColdDown" nParam1="2" fParam1="1" Desc="每2次攻击会减少1秒技能CD。"/>
+			     <Ability Kind="HitCountCostSkill" nParam1="9"  sParam1="HealthSkill_Gong4_1" Desc="每9次攻击会恢复自身灵气"/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>	
+
+</List></ThingDefs>

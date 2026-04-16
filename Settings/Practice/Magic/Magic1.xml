@@ -1,0 +1,19 @@
+<Magics><List>
+	<Magic Name="BeiMingJingTun" Type="Class">
+		<DisplayName>魔绝天棺</DisplayName>
+		<Desc>以天魔之力给他人送葬，并增加自己的灵力上限。</Desc>
+		<Icon>res\Sprs\ui\icon_tongxiu01</Icon>
+		<TargetDesc>请选择已死亡或弥留的角色</TargetDesc>	
+		<Param1>5</Param1><!--消耗时间-->
+		<Param2>1000</Param2><!--获得精元-->
+		<sParam1>GongXianfo_Esoterica_10</sParam1>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Npc</SelectTarget>
+		<Ani>shentong6</Ani>
+		<ClassName>Magic_BeiMingJingTun</ClassName>
+		<ShowInPAttacker>1</ShowInPAttacker>
+	</Magic>
+
+
+	
+</List></Magics>

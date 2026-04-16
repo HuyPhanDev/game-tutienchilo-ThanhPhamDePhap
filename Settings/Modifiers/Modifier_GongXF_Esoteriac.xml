@@ -1,0 +1,443 @@
+<ModifierDefs><List>	
+	<Modifier Name="GongXianfo_Esoterica_1" Type="Normal">
+		<DisplayName>佛</DisplayName>
+		<Desc>此人佛性深厚，慈悲为怀。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" BAddV="-200"/>
+			<li Name="MaxAccumulativeLingAddV" BAddV="2600000"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="10"/>
+			<li Name="NpcLingMaxValue" BAddV="500"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="GongXianfo_Esoterica_2" Type="Normal">
+		<DisplayName>戒</DisplayName>
+		<Desc>此人受佛门戒律，行为有度，寿命悠长</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NutritionWaterAutoRecover" AddV="2"/>
+			<li Name="FatigueConsumeConstant" AddV="-10"/>
+			<li Name="HappyConsumeConstant" AddV="-10"/>
+			<li Name="MaxAge" AddV="2000"/>
+			<li Name="NutritionToJingYuanK" AddV="2000"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="GongXianfo_Esoterica_3" Type="Normal">
+		<DisplayName>定</DisplayName>
+		<Desc>此人禅定深厚，风不动，火不动，心不外驰，境界极高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="150"/>
+			<li Name="SpeedOfMindStateCoefficient" AddV="50"/>
+			<li Name="BaseEmotionAddV" AddV="100"/>
+			<li Name="ToleranceTMin" AddV="-200"/>
+			<li Name="ToleranceTMax" AddV="1500"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="GongXianfo_Esoterica_4" Type="Normal">
+		<DisplayName>慧</DisplayName>
+		<Desc>此人彻悟般若智慧，天下一等大聪明。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddV="100000"/>
+			<li Name="InspirationCoefficient" AddP="200"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="GongXianfo_Esoterica_5" Type="Normal">
+		<DisplayName>众生平等</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_SneakValue" AddV="1200"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="GongXianfo_Esoterica_6" Type="Normal">
+		<DisplayName>魔</DisplayName>
+		<Desc>此人一念成魔，行事乖张，为天道所不容。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fight" Level="20"/>
+		</Skills>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-200"/>
+			<li Name="GodPenaltyAddV" BAddV="100"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="GongXianfo_Esoterica_7" Type="Normal">
+		<DisplayName>战</DisplayName>
+		<Desc>此人好战成性，战斗能力通天。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fight" LevelOver="10"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="1"/>
+			<li Name="NpcFight_FabaoFlySpeedAddP" BAddP="0.5"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" BAddP="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="GongXianfo_Esoterica_8" Type="Normal">
+		<DisplayName>邪</DisplayName>
+		<Desc>此人邪气凛然，不惧炎热与寒冷，以折磨众生为乐。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="GodPenaltyAddV" BAddV="100"/>
+			<li Name="ToleranceTMin" AddV="-200"/>
+			<li Name="ToleranceTMax" AddV="1000"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="GongXianfo_Esoterica_9" Type="Normal">
+		<DisplayName>狂</DisplayName>
+		<Desc>此人狂妄自大，无惧疼痛，五行减伤，誓要逆天而行。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="30"/>
+			<li Name="PainTolerance" AddV="10"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="GongXianfo_Esoterica_10" Type="Normal">
+		<DisplayName>魔绝天棺</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="50000"/>
+			<li Name="GodPenaltyAddV" BAddV="50"/>
+			<li Name="MaxAge" AddV="200"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="GongXianfo_Esoterica_11" Type="Normal">
+		<DisplayName>风</DisplayName>
+		<Desc>此人御器如风，法宝灵气极低，回灵速度极快。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="15"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" BAddP="-5"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="100"/> 
+		</Properties>
+	</Modifier> 
+	<Modifier Name="GongXianfo_Esoterica_12" Type="Normal">
+		<DisplayName>山</DisplayName>
+		<Desc>此人御器如山，法宝灵气极高，回灵速度较快。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="15"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="150"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="150"/> 
+		</Properties>
+	</Modifier>
+	<Modifier Name="GongXianfo_Esoterica_13" Type="Normal">
+		<DisplayName>八方惊武</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+
+			<li Name="NpcFight_FabaoPowerAddP" AddP="30"/>			
+			<li Name="NpcFight_SpellPowerAddP" AddP="90"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="GongXianfo_Esoterica_14" Type="Normal">
+		<DisplayName>圣</DisplayName>
+		<Desc>此人乃佛宗大能，佛法通圣，是佛宗在修仙界代言人。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="20"/>
+			<li Name="FightSkill" LevelOver="10"/>
+			<li Name="Barrier" LevelOver="20"/>
+		</Skills>
+		<Properties>
+			
+			<li Name="NpcLingMaxValue" AddV="2500000"/>
+			<li Name="NpcLingMaxValue" AddP="150"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="200"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="80"/> 
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="150"/> 
+			
+			
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="2"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/> 
+			
+			<li Name="NpcFight_ShieldConversionRate" AddV="1.5"/>	
+			<li Name="NpcFight_FabaoNum" AddV="3"/>		
+			
+		</Properties>
+	</Modifier> 
+	<Modifier Name="GongXianfo_Esoterica_15" Type="Normal">
+		<DisplayName>菩提</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Barrier" LevelOver="10"/>
+			<li Name="FightSkill" LevelOver="10"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="2"/>
+		</Properties>
+	</Modifier>  
+	<Modifier Name="GongXianfo_Esoterica_16" Type="Normal">
+		<DisplayName>金佛</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="GongXianfo_Esoterica_17" Type="Normal">
+		<DisplayName>绝</DisplayName>
+		<Desc>此人乃魔佛旬波真传弟子，绝世大魔。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="25"/>
+			<li Name="FightSkill" LevelOver="20"/>
+			<li Name="Barrier" LevelOver="20"/>
+		</Skills>
+		<Properties>			
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="50"/>			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="100"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="50"/> 
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="100"/> 
+			
+			
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="2"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/> 
+			
+			<li Name="NpcFight_ShieldConversionRate" AddV="1"/>
+			<li Name="NpcFight_FabaoNum" AddV="3"/>			
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="GongXianfo_Esoterica_18" Type="Normal">
+		<DisplayName>涅槃之初</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Fabao" Level="20"/>
+		</Skills>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="3000"/>
+			<li Name="NpcLingMaxValue" AddV="3000"/>
+			<li Name="NutritionToJingYuanK" AddV="0.005"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>			
+			<li Name="NpcFight_SpellPowerAddP" AddP="20"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="5"/>
+		</Properties>
+	</Modifier>
+
+
+	<Modifier Name="GongXianfo_Esoterica_19" Type="Normal">
+		<DisplayName>佛海圣击</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddP="6"/>
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="4"/>
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="6"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="15"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="GongXianfo_Esoterica_20" Type="Normal">
+		<DisplayName>弥陀应法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" BAddP="0.8"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="GongXianfo_Esoterica_21" Type="Normal">
+		<DisplayName>佛字天锁</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="0.8"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="GongXianfo_Esoterica_22" Type="Normal">
+		<DisplayName>大日七曜</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-50"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="20"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="GongXianfo_Esoterica_zhen" Type="Normal">
+		<DisplayName>轮回之末</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Skills>
+
+			<li Name="Zhen" LevelOver="15"/>
+		</Skills>
+		<Properties>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="2"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="GongXianfo_Esoterica_zhan1" Type="Normal">
+		<DisplayName>怒海修罗</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Fight" LevelOver="10"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="25"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="2"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="90"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="GongXianfo_Esoterica_23" Type="Normal">
+		<DisplayName>炼器</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Manual" LevelOver="10"/>
+		</Skills>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="GongXianfo_Esoterica_24" Type="Normal">
+		<DisplayName>炼丹</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Medicine" LevelOver="10"/>
+		</Skills>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="1.3"/>
+		</Properties>
+	</Modifier>
+		<Modifier Name="CX_TX4" Type="Normal">
+		<DisplayName>法相天地</DisplayName>
+		<Desc>身形如金刚诸佛，能力大幅提升。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<LuaClassName>CX_TX4</LuaClassName>
+		<EndModifier>CT_TXY</EndModifier>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="2000000"/>
+			<li Name="NpcLingMaxValue" AddP="50"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="80"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="80"/> 
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="80"/> 
+			
+			
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="2"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/> 
+			
+			<li Name="NpcFight_ShieldConversionRate" AddV="1.5"/>			
+				
+		</Properties>
+	</Modifier>
+	<Modifier Name="CT_TXY" Type="Normal">
+		<DisplayName>虚弱</DisplayName>
+		<Desc>用过法相天地以后陷入虚弱状态。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<LuaClassName>CT_TXY</LuaClassName>
+		<EndModifier>CT_TX1</EndModifier>
+		<Properties>
+						<li Name="NpcLingMaxValue" AddV="-2000000"/>
+			<li Name="NpcLingMaxValue" AddP="-50"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-300"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="-100"/> 
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="-200"/> 
+			
+			
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="-2"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="-1"/> 
+			
+			<li Name="NpcFight_ShieldConversionRate" AddV="-1.5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-500"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="CX_TX1" Type="Normal">
+		<DisplayName>恢复</DisplayName>
+		<Desc>从虚弱状态恢复过来。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<LuaClassName>CX_TX1</LuaClassName>
+	</Modifier>
+</List></ModifierDefs>

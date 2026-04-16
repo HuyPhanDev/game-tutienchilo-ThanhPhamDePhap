@@ -1,0 +1,52 @@
+<Magics><List>
+
+	
+
+	
+	<Magic Name="ClosedDoor_GongF">
+		<DisplayName>禅定</DisplayName>
+		<Desc>佛宗入定秘法，快速炼化精元，修为不会增长。</Desc>
+		<Icon>res\Sprs\ui\icon_ruding01</Icon>
+		<Param1>0</Param1><!--修炼速度加成-->
+		<Param2>0.002</Param2><!--寿命消耗/秒-->
+		<Param3>1000</Param3><!--精元消耗倍率-->
+		<CostLing>0</CostLing>
+		<CostAge>0</CostAge>
+		<Penalty>0</Penalty>
+		<ScoreBase>0</ScoreBase>
+		<ScoreGood>0</ScoreGood>
+		<ScoreBad>0</ScoreBad>
+		<CMD>ClosedDoor</CMD>
+		<SelectType>CloseDoor</SelectType>
+	</Magic>
+	
+	<Magic Name="ClosedDoor_GongM">
+		<DisplayName>魔境</DisplayName>
+		<Desc>快速消耗寿元进行修行，在这一状态下修行速度大幅提升。</Desc>
+		<Icon>res\Sprs\ui\icon_ruding01</Icon>
+		<Param1>800</Param1><!--修炼速度加成-->
+		<Param2>5</Param2><!--寿命消耗/秒-->
+		<Param3>0</Param3><!--精元消耗倍率-->
+		<CostLing>0</CostLing>
+		<CostAge>0</CostAge>
+		<Penalty>0</Penalty>
+		<ScoreBase>0</ScoreBase>
+		<ScoreGood>0</ScoreGood>
+		<ScoreBad>0</ScoreBad>
+		<CMD>ClosedDoor</CMD>
+		<SelectType>CloseDoor</SelectType>
+	</Magic>
+	<Magic Name="PrayFoguo_GongF">
+		<DisplayName>佛国降临</DisplayName>
+		<Desc>西方佛国降临，在佛国中，地表灵气提升，御器威力、法术威力、灵气恢复大幅提高。</Desc>
+		<Icon>res\Sprs\ui\icon_zhaolei01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>Weather_Magic_Foguo</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>1000000</CostLing>
+		<CostAge>50</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+
+</List></Magics>

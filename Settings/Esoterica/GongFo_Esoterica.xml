@@ -1,0 +1,686 @@
+﻿<Esotericas><List>	
+		<Esoterica Name="GongXianfo_Esoterica_1">
+		<DisplayName>仙佛</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>一念成佛，发大宏愿，以澄净之心和无我之精神普渡众生。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<Mutex>
+			<li>GongXianfo_Esoterica_6</li>
+		</Mutex>
+		<EffectDesc>[size=10][color=#D06508]提升鼎炉上限10万\n增加功德值\n潜力加值10\n提升根本灵气[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_1</Modifier>	
+		
+	</Esoterica>
+	
+	<Esoterica Name="GongXianfo_Esoterica_2">
+		<DisplayName>戒</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res\Sprs\ui\icon_ruding01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>持五戒、十戒、具足戒等，受戒之人，自律天成。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升寿元1000\n提升饮气效率\n降低娱乐\n不眠者\n提升精元转换率[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_2</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongXianfo_Esoterica_3">
+		<DisplayName>定</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res\Sprs\ui\icon_ruding01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>掌握禅定之术，清除杂念，使心灵和思维纯净，进入彻悟之境。风不动，烛火不动，心亦不动，快速炼精化气，充满鼎炉。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提高心境基础值\n提高心情基础值\n提高冷热上限\n习得：禅定[/color][/size]</EffectDesc>
+		<Magics>
+			<li>ClosedDoor_GongF</li>
+		</Magics>
+		<Modifier>GongXianfo_Esoterica_3</Modifier>	
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="GongXianfo_Esoterica_4">
+		<DisplayName>慧</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res\Sprs\ui\icon_ruding01</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>究竟圆满，智慧由心而生，彻悟自性本足的般若智慧。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]海量提高学习速度\n提升领悟事件发生概率[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_4</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="GongXianfo_Esoterica_5">
+		<DisplayName>众生平等</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>佛宗之人慈悲为怀，深悟平等之理。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]众生平等，隐匿状态下即使捡起地上的物品，对方会装作看不到[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_5</Modifier>	
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_6">
+		<DisplayName>魔佛</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>一念成魔，无法正常修行，以他人之命搏己身之命，杀戮之后进入魔境才能获取修为。杀杀杀杀，杀出一条飞升路。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<Mutex>
+			<li>GongXianfo_Esoterica_1</li>
+		</Mutex>
+		<EffectDesc>[size=10][color=#D06508]提高战斗等级20级\n天谴值加100\n修炼速度大幅降低\n习得秘术：魔境[/color][/size]</EffectDesc>
+		<Magics>
+			<li>ClosedDoor_GongM</li>
+		</Magics>
+		<Modifier>GongXianfo_Esoterica_6</Modifier>	
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="GongXianfo_Esoterica_7">
+		<DisplayName>战</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res\Sprs\ui\icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>纵使天道降临，亦可一战。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]突破战斗等级10级\n提升法宝威力[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_7</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="GongXianfo_Esoterica_8">
+		<DisplayName>邪</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res\Sprs\ui\icon_lianhun01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>邪气凛然，纵横四方。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提高天谴值\n极限温度提升[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_8</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="GongXianfo_Esoterica_9">
+		<DisplayName>狂</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res\Sprs\ui\icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>狂叱人间，无惧天下，唯魔道恣意人生，好不快哉！</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]不惧疼痛\n提升法宝威力\n五行减伤[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_9</Modifier>	
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_10">
+		<DisplayName>万乘天法</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res\Sprs\ui\icon_lianqi</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>佛宗秘传炼器之术，可突破炼器上限。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Refining</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅降低法宝炼制速度\n突破炼器等级10级[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_23</Modifier>	
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_17">
+		<DisplayName>古微生莲</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res\Sprs\ui\icon_liandan</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>佛宗秘传炼丹之术，可突破炼丹上限。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>[size=10][color=#D06508]提升炼丹速度\n突破炼丹等级10级[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_24</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="GongXianfo_Esoterica_11">
+		<DisplayName>涅槃之初</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>佛宗初禅三式：第一式。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]提升灵气最大值3000\n提升灵气吸收速度\n提高法宝威力\n提高法术威力\n提升御器等级20[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_18</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="GongXianfo_Esoterica_12">
+		<DisplayName>天路引归·不凡圣功</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>佛门有云：救人一命胜造七级浮屠。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]习得神通：天路引归[/color][/size]</EffectDesc>
+		<Magics>
+			<li>God_R</li>
+		</Magics>
+	
+	</Esoterica>
+	
+	
+	<Esoterica Name="GongXianfo_Esoterica_13">
+		<DisplayName>菩提之间</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>佛宗初禅三式：第二式。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]突破法术等级10\n突破护盾等级10\n御使法宝数量增加[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_15</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="GongXianfo_Esoterica_14">
+		<DisplayName>轮回之末</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>佛宗初禅三式：第三式。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]突破阵法等级15\n提升内门伤势恢复[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_zhen</Modifier>	
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_26">
+		<DisplayName>魔佛传承</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>魔佛专属秘宝：魔骨舍利</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]佛魔专属 秘宝\n魔骨舍利[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_Sheli</li>
+		</Fabaos>
+
+	</Esoterica>
+	
+	<Esoterica Name="GongXianfo_Esoterica_15">
+		<DisplayName>锁元集谛</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>灵气锁元，心念如电，御器如风。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<Mutex>
+			<li>GongXianfo_Esoterica_16</li>
+		</Mutex>
+		<EffectDesc>[size=10][color=#D06508]突破御器等级15\n从根本上降低法宝灵气[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_11</Modifier>	
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_16">
+		<DisplayName>金刚萨锤</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>重若金刚，御器如山。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<Mutex>
+			<li>GongXianfo_Esoterica_15</li>
+		</Mutex>
+		<EffectDesc>[size=10][color=#D06508]突破御器等级15\n提高法宝灵气和法宝灵气恢复[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_12</Modifier>	
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_18">
+		<DisplayName>八方惊武</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>佛法通神，武法惊人。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝威力\n提高法术威力[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_13</Modifier>	
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_19">
+		<DisplayName>十二神天守</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>12</Difficulty>
+		<Desc>佛光引渡，比肩大能。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]各项能力提升至大能水准[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_14</Modifier>	
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_20">
+		<DisplayName>仙佛传承</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>领悟佛法无边，仙佛的实力会随时间自动增强，习得上古流传下的三种仙佛秘宝的制作方式</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 秘宝\n金莲神座\n元神心剑\n仙佛专属 秘宝\n净莲之华[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_jinglian</li>
+			<li>MiBaoFormula_JinLianShenZuo</li>
+			<li>MiBaoFormula_YuanShenXinJian</li>
+		</Fabaos>
+		<Modifier>FightPowerUp</Modifier>
+
+	</Esoterica>	
+	<Esoterica Name="GongXianfo_Esoterica_21">
+		<DisplayName>阴虚劲</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>运起体内阴虚之气发射的劲力，阴柔连绵，令人难以防御。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 法术\n阴虚劲[/color][/size]</EffectDesc>
+		<Skills>
+			<li>DamageSkill_yinxu</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_22">
+		<DisplayName>佛颜圣怒</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>佛本清净无染，亦有怒目之色，提升御器威力。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 法术\n佛颜圣怒[/color][/size]</EffectDesc>
+		<Skills>
+			<li>FabaoSkill_FM_1</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_23">
+		<DisplayName>善法道谛</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>佛宗核心法术之一，可增强法术威力。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 法术\n九梵灭[/color][/size]</EffectDesc>
+		<Skills>
+			<li>FightSkill_FM</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_24">
+		<DisplayName>莲华灭谛</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>16</Difficulty>
+		<Desc>以灭谛真意造成巨大伤害，周围的一切将会毁灭。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 法术\n莲华灭谛（家中慎用）[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Zhulong_F3_bomb</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_25">
+		<DisplayName>万魔朝宗</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>16</Difficulty>
+		<Desc>佛魔降临，万魔狂啸，对周围造成巨大影响。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 法术\n万魔朝宗（家中慎用）[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Zhulong_F4_bomb</li>
+		</Skills>
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_27">
+		<DisplayName>八部龙神火</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>八部天龙护佑，赐神火御敌。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 法术\n八部龙神火[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Jiaolong_F</li>
+		</Skills>
+	</Esoterica>
+
+<Esoterica Name="GongXianfo_Esoterica_28">
+		<DisplayName>佛本是道</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>道是佛，佛亦道，佛宗真传弟子亦精通道家符术。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>学会部分道家符图。</EffectDesc>
+		<Spells>
+			<li>Spell_MindState2</li>
+			<li>Spell_MindState1</li>
+			<li>Spell_DeepPracticeSpeedSpecialCoefficient1</li>
+			<li>Spell_Intelligence</li>
+			<li>Spell_Fight</li>
+			<li>Spell_Shield1</li>
+			<li>Spell_FaBao1</li>
+			<li>Spell_FightSkill1</li>
+			<li>Spell_FaBao2</li>
+			<li>Spell_FaBao3</li>
+			<li>Spell_FaBao4</li>
+			<li>Spell_DeepPracticeSpeedSpecialCoefficient2</li>
+			<li>Spell_TongTian1</li>
+			<li>Spell_TongTian2</li>
+			<li>Spell_TongTian3</li>
+			<li>Spell_JieTian1</li>
+			<li>Spell_FightSkill2</li>
+			<li>Spell_FightSkill3</li>
+			<li>Spell_FightSkill4</li>
+			<li>Spell_Shield2</li>
+			<li>Spell_DanMake_YieldAddP</li>
+			<li>Spell_DanMake_SuccessRateAddV</li>
+			<li>Spell_FabaoMake_LingInheritRateAddV</li>
+			<li>Spell_FabaoMake_SuccessRateAddV</li>
+			<li>Spell_SpeedOfMindStateCoefficientByMoods</li>
+			<li>Spell_Fu</li>
+			<li>Spell_Lu</li>
+			<li>Spell_Shou</li>
+		</Spells>
+	</Esoterica>
+
+	<Esoterica Name="GongXianfo_Esoterica_29">
+		<DisplayName>如来唤心经</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>心念观照无上如来，显化身外元神。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<GodSoulCount>18</GodSoulCount>
+		<EffectDesc>[size=10][color=#D06508]增加十八条元神分神\n习得 秘术\n如来神掌[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Zhulong_F3</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_30">
+		<DisplayName>魔佛旬波</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_lianhun01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>心念沟通魔佛旬波，获得旬波馈赠，提升属性，习得攻击秘法九婴噬魂，同时习得秘术旬波之识，以自身寿命交换元神分神。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<GodSoulCount>28</GodSoulCount>
+		<EffectDesc>[size=10][color=#D06508]增加二十八条元神分神\n修炼能力恢复\n属性大幅提升\n习得 秘术\n旬波之识\n习得 秘术\n九婴噬魂[/color][/size]</EffectDesc>
+		<Magics>
+			<li>Xunbo</li>
+		</Magics>
+		<Skills>
+			<li>Zhulong_F2</li>
+		</Skills>
+		<Modifier>GongXianfo_Esoterica_17</Modifier>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_31">
+		<DisplayName>金佛不灭体</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>佛宗炼体之法，可以提升护体之力，修炼到极致可习得秘法金佛不灭体。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Barrier</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅提升灵气护盾效果\n习得秘术：金佛不灭体[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_16</Modifier>	
+		<Skills>
+			<li>SheildSkill_Xianfo</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_32">
+		<DisplayName>天龙吼</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>一声天龙吼，千里碎脑音。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：天龙吼[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_27</Modifier>	
+		<Skills>
+			<li>FightSkill_Tianlong</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_33">
+		<DisplayName>回照大千</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>佛以心念回照大千世界，可恢复所有人自身灵气。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 法术\n回照大千[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Gong_Xianfo_HealthSkill</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_34">
+		<DisplayName>文殊法剑</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>文殊菩萨手中法剑。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 法术\n文殊法剑[/color][/size]</EffectDesc>
+		<Skills>
+			<li>DamageSkill_Xianfo</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_35">
+		<DisplayName>焚业天雷</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>焚业之力，化为雷霆。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 法术\n焚业天雷[/color][/size]</EffectDesc>
+		<Skills>
+			<li>FightSkill_FG</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_36">
+		<DisplayName>佛国降临</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_zhaolei01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>16</Difficulty>
+		<Desc>西方佛国降临，在佛国中，地表灵气提升1000，御器威力、法术威力、灵气恢复大幅提高。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 领域\n佛国降临[/color][/size]</EffectDesc>
+		<Magics>
+			<li>PrayFoguo_GongF</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_37">
+		<DisplayName>怒海修罗</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>难以控制体内的魔气，暴走后彻底化为修罗之身。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]\n突破战斗等级10\n提升法宝威力\n提升法术威力\n习得 法术\n怒海修罗斩[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Zhulong_F4</li>
+		</Skills>
+		<Modifier>GongXianfo_Esoterica_zhan1</Modifier>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_38">
+		<DisplayName>佛字天锁</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>密宗隐秘传承，威力惊人，能力直指本源。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]\n从根本上提升法宝威力[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_21</Modifier>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_39">
+		<DisplayName>佛海圣击</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>佛海无涯，蕴含万千真道，亦有击退之术。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]\n提升法宝击退\n提升法宝威力[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_19</Modifier>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_40">
+		<DisplayName>弥陀应法</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>弥陀之心，领悟法术之道。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]\n从根本上提升法术威力[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_20</Modifier>
+	</Esoterica>
+	<Esoterica Name="GongXianfo_Esoterica_41">
+		<DisplayName>大日七曜</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>以大日如来法观想日月金木水火土，获得七曜之体。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]\n大幅降低法术消耗\n提升法术威力[/color][/size]</EffectDesc>
+		<Modifier>GongXianfo_Esoterica_22</Modifier>
+	</Esoterica>
+
+
+
+	<Esoterica Name="Magic_Faxiang">
+		<DisplayName>法相天地</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_zaizaoxingshen01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>大能创造的神通，可将身体化为须弥山大小，能力大幅提升。</Desc>
+		<GLevel>God</GLevel>
+		<EffectDesc>[size=10][color=#D06508]习得神通：法相天地[/color][/size]</EffectDesc>
+		<Magics>
+			<li>Magic_B</li>
+		</Magics>
+	</Esoterica>
+
+</List></Esotericas>

@@ -1,0 +1,153 @@
+<FightSkills><List>	
+	<Skill Name="Zhulong_F1">
+		<DisplayName>梵海神击</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>20</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>250</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<SelectType>Target</SelectType>		
+		<Shape>Aoe</Shape>
+		<Radius>10</Radius>
+		<HitEffect>56</HitEffect>
+	</Skill>
+	<Skill Name="Zhulong_JN">
+		<DisplayName>魔动</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>20</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>300</Value>
+		<SelectType>Target</SelectType>
+		<TargetCamp>Enemy</TargetCamp>
+		<Shape>Missile</Shape>
+		<MissileEffect>26</MissileEffect>
+		<HitEffect>61</HitEffect>
+		<ClassName>zhulong_zuinie</ClassName>
+		<Radius>0</Radius>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>5</p2>
+			<p3>-5</p3>
+			<p4>0</p4>
+			<Speed>40</Speed>
+			<Shake>3</Shake>
+		</Missile>
+	</Skill>
+	<Skill Name="Zhulong_F2">
+		<DisplayName>九婴噬魂</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Tu</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>20</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>800</Value>
+		<SelectType>Target</SelectType>
+		<TargetCamp>Enemy</TargetCamp>
+		<Shape>Missile</Shape>
+		<MissileEffect>200006</MissileEffect>
+		<HitEffect>52</HitEffect>
+		<ClassName>Zhulong_xinmotuxi</ClassName>
+		<Radius>0</Radius>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>16</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>3</CheckRadius>
+		</Missile>
+	</Skill>
+
+	<Skill Name="Zhulong_F3">
+		<DisplayName>如来神掌</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Element>Tu</Element>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>20</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>700</Value>
+		<SelectType>Target</SelectType>
+		<TargetCamp>Enemy</TargetCamp>
+		<Shape>Single</Shape>	
+		<HitEffect>50</HitEffect>		
+	</Skill>
+	<Skill Name="Zhulong_F4">
+		<DisplayName>怒海修罗</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Element>Tu</Element>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>25</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1100</Value>
+		<SelectType>Target</SelectType>
+		<TargetCamp>Enemy</TargetCamp>
+		<Shape>Single</Shape>	
+		<HitEffect>59</HitEffect>		
+	</Skill>
+	
+	<Skill Name="Zhulong_F4_bomb">
+		<DisplayName>万魔朝宗</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Element>Tu</Element>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>90</CD>
+		<LingCost>10000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>3700</Value>
+		<Radius>50</Radius>
+		<SelectType>Target</SelectType>
+		<TargetCamp>Enemy</TargetCamp>
+		<Shape>Aoe</Shape>	
+		<BombEffect>60</BombEffect>
+		<ClassName>other_broken</ClassName>
+	</Skill>
+	
+	<Skill Name="Zhulong_F3_bomb">
+		<DisplayName>莲华灭谛</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Element>Tu</Element>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>90</CD>
+		<LingCost>10000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>3500</Value>
+		<Radius>50</Radius>
+		<SelectType>Target</SelectType>
+		<TargetCamp>Enemy</TargetCamp>
+		<Shape>Aoe</Shape>	
+		<BombEffect>52</BombEffect>
+		<ClassName>other_broken</ClassName>
+	</Skill>
+	
+</List></FightSkills>
